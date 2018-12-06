@@ -66,22 +66,22 @@
 								"cssClass": "form-control component-group",
 								"fieldCssClass": "",
 								"bindingMode": "",
-								"validators": [react_1.createElement(RequiredValidator_1.RequiredValidator, {
+								"validators": [react_1.createElement(reactNative.Text, {
 										"key": "required",
 										"errorMessage": "This field is required."
-									}, []), react_1.createElement(MaxLengthValidator_1.MaxLengthValidator, {
+									}, []), react_1.createElement(reactNative.Text, {
 										"key": "maxLength",
 										"errorMessage": "This field accepts at most {maxLength} characters.",
 										"maxLength": function () {
 											return root.state.maxLength
 										}
-									}, []), react_1.createElement(MinLengthValidator_1.MinLengthValidator, {
+									}, []), react_1.createElement(reactNative.Text, {
 										"key": "minLength",
 										"errorMessage": "This field accepts at least {minLength} characters.",
 										"minLength": function () {
 											return root.state.minLength
 										}
-									}, []), react_1.createElement(ValidCharsValidator_1.ValidCharsValidator, {
+									}, []), react_1.createElement(reactNative.Text, {
 										"key": "pattern",
 										"errorMessage": "The character \u2018{invalidChar}\u2019 is not allowed.",
 										"validChars": function () {
@@ -107,10 +107,10 @@
 						"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02_field_container"
 					}, [react_1.createElement(reactNative.View, {
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02_label_container"
-							}, [react_1.createElement("label", {
+							}, [react_1.createElement(reactNative.Text, {
 										"htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
 										"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02_label"
-									}, "Confirm User ID")]), react_1.createElement(ConfirmationTextBox_1.ConfirmationTextBox, {
+									}, "Confirm User ID")]), react_1.createElement(reactNative.TextInput, {
 								"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
 								"cssClass": "form-control component-group",
