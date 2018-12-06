@@ -1,5 +1,6 @@
 (function main(React, ReactNative, componentState, Button, require) {
-	'use strict' Object.defineProperty(exports, '__esModule', {
+	'use strict';
+	Object.defineProperty(exports, '__esModule', {
 		value: true
 	});
 	function _interopRequireDefault(obj) {
@@ -11,13 +12,13 @@
 	var react_1 = React;
 	var reactNatvie = ReactNative;
 	var root = this;
-	return react_1.createElement(reactNative.View, {}, [react_1.createElement(Notification_1.Notification, {
+	return react_1.createElement(reactNative.View, {}, [react_1.createElement(reactNative.View, {
 				"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_notificationMessage",
 				"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_notificationMessage",
 				"cssClass": "notification",
 				"text": null,
 				"notifyType": {}
-			}, []), react_1.createElement(Message_1.Message, {
+			}, []), react_1.createElement(reactNative.Text, {
 				"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_messageHeaderContent",
 				"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_messageHeaderContent",
 				"cssClass": "form-message",
@@ -34,7 +35,7 @@
 							}, [react_1.createElement("label", {
 										"htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
 										"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03_label"
-									}, "Existing User ID")]), react_1.createElement(ReadOnlyField_1.ReadOnlyField, {
+									}, "Existing User ID")]), react_1.createElement(reactNative.Text, {
 								"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
 								"cssClass": "form-field-value",
@@ -56,10 +57,10 @@
 						"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_field_container"
 					}, [react_1.createElement(reactNative.View, {
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_label_container"
-							}, [react_1.createElement("label", {
+							}, [react_1.createElement(reactNative.Text, {
 										"htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
 										"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_label"
-									}, "New User ID")]), react_1.createElement(TextBox_1.TextBox, {
+									}, "New User ID")]), react_1.createElement(reactNative.TextInput, {
 								"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
 								"cssClass": "form-control component-group",
