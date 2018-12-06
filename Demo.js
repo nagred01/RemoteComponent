@@ -1,5 +1,6 @@
 (function main(React, ReactNative, componentState, Button, require) {
-	'use strict' Object.defineProperty(exports, '__esModule', {
+	'use strict';
+	Object.defineProperty(exports, '__esModule', {
 		value: true
 	});
 	function _interopRequireDefault(obj) {
@@ -11,13 +12,13 @@
 	var react_1 = React;
 	var reactNatvie = ReactNative;
 	var root = this;
-	return react_1.createElement(reactNative.View, {}, [react_1.createElement(Notification_1.Notification, {
+	return react_1.createElement(reactNative.View, {}, [react_1.createElement(reactNative.View, {
 				"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_notificationMessage",
 				"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_notificationMessage",
 				"cssClass": "notification",
 				"text": null,
 				"notifyType": {}
-			}, []), react_1.createElement(Message_1.Message, {
+			}, []), react_1.createElement(reactNative.Text, {
 				"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_messageHeaderContent",
 				"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_messageHeaderContent",
 				"cssClass": "form-message",
@@ -25,7 +26,7 @@
 				"visible": function () {
 					return true
 				}
-			}, []), react_1.createElement(reactNative.View, {
+			}, "Your user ID and password are used to log in to this site. This page allows you to change your user ID. Your user ID must be between 8 and 26 characters in length and may be made up of both letters and numerals. Your user ID is not case sensitive."), react_1.createElement(reactNative.View, {
 				"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_editZone"
 			}, [react_1.createElement(reactNative.View, {
 						"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03_field_container"
@@ -34,7 +35,7 @@
 							}, [react_1.createElement("label", {
 										"htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
 										"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03_label"
-									}, "Existing User ID")]), react_1.createElement(ReadOnlyField_1.ReadOnlyField, {
+									}, "Existing User ID")]), react_1.createElement(reactNative.Text, {
 								"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
 								"cssClass": "form-field-value",
@@ -56,31 +57,31 @@
 						"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_field_container"
 					}, [react_1.createElement(reactNative.View, {
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_label_container"
-							}, [react_1.createElement("label", {
+							}, [react_1.createElement(reactNative.Text, {
 										"htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
 										"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_label"
-									}, "New User ID")]), react_1.createElement(TextBox_1.TextBox, {
+									}, "New User ID")]), react_1.createElement(reactNative.TextInput, {
 								"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
 								"cssClass": "form-control component-group",
 								"fieldCssClass": "",
 								"bindingMode": "",
-								"validators": [react_1.createElement(RequiredValidator_1.RequiredValidator, {
+								"validators": [react_1.createElement(reactNative.Text, {
 										"key": "required",
 										"errorMessage": "This field is required."
-									}, []), react_1.createElement(MaxLengthValidator_1.MaxLengthValidator, {
+									}, []), react_1.createElement(reactNative.Text, {
 										"key": "maxLength",
 										"errorMessage": "This field accepts at most {maxLength} characters.",
 										"maxLength": function () {
 											return root.state.maxLength
 										}
-									}, []), react_1.createElement(MinLengthValidator_1.MinLengthValidator, {
+									}, []), react_1.createElement(reactNative.Text, {
 										"key": "minLength",
 										"errorMessage": "This field accepts at least {minLength} characters.",
 										"minLength": function () {
 											return root.state.minLength
 										}
-									}, []), react_1.createElement(ValidCharsValidator_1.ValidCharsValidator, {
+									}, []), react_1.createElement(reactNative.Text, {
 										"key": "pattern",
 										"errorMessage": "The character \u2018{invalidChar}\u2019 is not allowed.",
 										"validChars": function () {
@@ -106,31 +107,31 @@
 						"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02_field_container"
 					}, [react_1.createElement(reactNative.View, {
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02_label_container"
-							}, [react_1.createElement("label", {
+							}, [react_1.createElement(reactNative.Text, {
 										"htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
 										"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02_label"
-									}, "Confirm User ID")]), react_1.createElement(ConfirmationTextBox_1.ConfirmationTextBox, {
+									}, "Confirm User ID")]), react_1.createElement(reactNative.TextInput, {
 								"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
 								"cssClass": "form-control component-group",
 								"fieldCssClass": "",
 								"bindingMode": "",
-								"validators": [react_1.createElement(RequiredValidator_1.RequiredValidator, {
+								"validators": [react_1.createElement(reactNative.Text, {
 										"key": "required",
 										"errorMessage": "This field is required."
-									}, []), react_1.createElement(MaxLengthValidator_1.MaxLengthValidator, {
+									}, []), react_1.createElement(reactNative.Text, {
 										"key": "maxLength",
 										"errorMessage": "This field accepts at most {maxLength} characters.",
 										"maxLength": function () {
 											return root.state.maxLength
 										}
-									}, []), react_1.createElement(MinLengthValidator_1.MinLengthValidator, {
+									}, []), react_1.createElement(reactNative.Text, {
 										"key": "minLength",
 										"errorMessage": "This field accepts at least {minLength} characters.",
 										"minLength": function () {
 											return root.state.minLength
 										}
-									}, []), react_1.createElement(ValidCharsValidator_1.ValidCharsValidator, {
+									}, []), react_1.createElement(reactNative.Text, {
 										"key": "pattern",
 										"errorMessage": "The character \u2018{invalidChar}\u2019 is not allowed.",
 										"validChars": function () {
@@ -150,7 +151,7 @@
 									})
 								},
 								"mismatchErrorMessage": "The content provided in the Confirm User ID field does not match the content in the New User ID field."
-							}, [])])]), react_1.createElement(Button_1.Button, {
+							}, [])])]), react_1.createElement(Button, {
 				"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnConfirm",
 				"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnConfirm",
 				"cssClass": "btn btn-primary btn-full-width component-group",
@@ -158,7 +159,7 @@
 				"onClick": function () {
 					return root.submitChangeLoginName()
 				}
-			}, []), react_1.createElement(Button_1.Button, {
+			}, []), react_1.createElement(Button, {
 				"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnCancel",
 				"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnCancel",
 				"cssClass": "btn btn-secondary btn-full-width component-group",
