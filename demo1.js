@@ -26,7 +26,7 @@
 				"visible": function () {
 					return true
 				}
-			}, "jbsdghyguvcvhvhvhjhvcvh."), react_1.createElement(reactNative.View, {
+			}, "Your user ID and password are used to log in to this site. This page allows you to change your user ID. Your user ID must be between 8 and 26 characters in length and may be made up of both letters and numerals. Your user ID is not case sensitive."), react_1.createElement(reactNative.View, {
 				"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_editZone"
 			}, [react_1.createElement(reactNative.View, {
 						"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03_field_container"
