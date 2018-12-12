@@ -17,7 +17,7 @@
 		"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_view",
 		"cssClass": null,
 		"style": styles.container
-	}, [react_1.createElement(reactNative.View, {
+	}, [react_1.createElement(reactNative.Text, {
 				"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_notificationMessage",
 				"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_notificationMessage",
 				"cssClass": "notification",
@@ -41,7 +41,7 @@
 							}, [react_1.createElement(reactNative.Text, {
 										"htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
 										"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03_label"
-									}, "Existing User ID")]), react_1.createElement("Text", {
+									}, "Existing User ID")]), react_1.createElement(reactNative.Text, {
 								"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
 								"cssClass": "form-field-value",
@@ -66,13 +66,13 @@
 							}, [react_1.createElement(reactNative.Text, {
 										"htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
 										"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_label"
-									}, "New User ID")]), react_1.createElement(TextBox_1.TextBox, {
+									}, "New User ID")]), react_1.createElement(reactNative.TextInput, {
 								"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
 								"cssClass": "form-control component-group",
 								"fieldCssClass": "",
 								"bindingMode": "",
-								],
+							
 								"getValue": function () {
 									return view.state.loginName
 								},
@@ -95,13 +95,13 @@
 							}, [react_1.createElement(reactNative.Text, {
 										"htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
 										"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02_label"
-									}, "Confirm User ID")]), react_1.createElement("TextInput", {
+									}, "Confirm User ID")]), react_1.createElement(reactNative.TextInput, {
 								"id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
 								"key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
 								"cssClass": "form-control component-group",
 								"fieldCssClass": "",
 								"bindingMode": "",
-								],
+								
 								"getValue": function () {
 									return view.state.loginName
 								},
