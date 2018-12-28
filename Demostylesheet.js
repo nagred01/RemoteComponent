@@ -1,10 +1,7 @@
-(function main(React, ReactNative, componentState, Button, Footer,StyleSheet, require) {
+(function main(StyleSheet) {
     
-    var react_1 = React;
-    var _reactNative = ReactNative;
-    var root = this;
-     
-return react_1.createElement(StyleSheet.create({
+
+return StyleSheet.create({
    container: {
      flex: 1,
      padding : 4
@@ -46,7 +43,7 @@ return react_1.createElement(StyleSheet.create({
    marginTop:3,
    color:"gray"
   }
-}));
+});
 
 });
     
