@@ -7,7 +7,7 @@ return StyleSheet.create({
     
      justifyContent: 'center',
     
-     padding : 4
+     padding : 2
   },
   saveButton: {
     fontSize: 12,
