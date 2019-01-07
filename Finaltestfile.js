@@ -1,4 +1,4 @@
-(function main(React, ReactNative, componentState, Button, StyleSheet, responsiveHeight, responsiveFontSize, require) {
+(function main(React, ReactNative, componentState, Button, Styles, responsiveHeight, responsiveFontSize, require) {
     'use strict';
 
     Object.defineProperty(exports, "__esModule", {
