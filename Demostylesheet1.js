@@ -4,9 +4,9 @@
 return StyleSheet.create({
    container: {
      flex: 1,
-     flexDirection: 'column',
+    
      justifyContent: 'center',
-     alignItems: 'center',
+    
      padding : 4
   },
   saveButton: {
