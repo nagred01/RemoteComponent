@@ -1,4 +1,4 @@
-(function main( StyleSheet, responsiveHeight, responsiveFontSize  ) {
+(function main(StyleSheet) {
 
 return StyleSheet.create({
         container: {
